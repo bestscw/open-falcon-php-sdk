@@ -29,7 +29,7 @@ $client = new OpenFalconClient($host,$user,$passwd);
 $hostgroups = $client->hostGroups();
 $templates = $client->templates();
 
-var_dump(compact($hostgroups,$templates));
+var_dump(compact("hostgroups","templates"));
 
 ````
 
