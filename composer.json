@@ -1,0 +1,34 @@
+{
+  "name": "wildfire/open-falcon-php-sdk",
+  "type": "library",
+  "description": "open-falcon api sdk",
+  "keywords": ["open-falcon", "open-falcon sdk"],
+  "homepage": "https://github.com/bestscw/open-falcon-php-sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "open-falcon-php-sdk",
+      "email": "bestscw@qq.com",
+      "homepage": "https://github.com/bestscw"
+    }
+  ],
+   "require": {
+     "php": ">= 5.5",
+     "monolog/monolog": "^1.0",
+     "guzzlehttp/guzzle": "~6.0"
+   },
+   "require-dev": {
+     "phpunit/phpunit": "4.5.*"
+   },
+   "autoload": {
+     "psr-4": {
+       "PipelineProcessor\\": "src/"
+     }
+   },
+   "autoload-dev": {
+     "psr-4": {
+       "PipelineProcessor\\Tests\\": "tests/"
+     }
+   },
+   "minimum-stability": "stable"
+}
