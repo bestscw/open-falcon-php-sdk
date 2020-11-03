@@ -22,13 +22,14 @@
    },
    "autoload": {
      "psr-4": {
-       "PipelineProcessor\\": "src/"
+       "OpenFalcon\\": "src/"
      }
    },
    "autoload-dev": {
      "psr-4": {
-       "PipelineProcessor\\Tests\\": "tests/"
+       "OpenFalcon\\Tests\\": "tests/"
      }
    },
    "minimum-stability": "stable"
 }
+
