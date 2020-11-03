@@ -11,6 +11,6 @@ use \Wildfire\OpenFalcon\OpenFalconClient;
     $hostgroups = $client->hostGroups();
     $templates = $client->templates();
     
-    var_dump(compact($hostgroups,$templates));
+    var_dump(compact("hostgroups","templates"));
     
 

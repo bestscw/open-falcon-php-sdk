@@ -4,6 +4,7 @@
 --------
 * PHP5.5+
 * monolog/monolog
+* guzzlehttp/guzzle
 
 安装
 ------------

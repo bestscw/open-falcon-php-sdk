@@ -68,7 +68,7 @@ class OpenFalconClient
     
     public function urlFor($url)
     {
-        return $this->host . $url;
+        return $this->host .":8080". $url;
     }
     
     /**
@@ -856,7 +856,7 @@ class OpenFalconClient
         if(empty($items)){
             return false;
         }
-        $url = str_replace(":8080", ":1988", $this->host)."/v1/push";
+        $url = $this->host . ":8081" ."/v1/push";
         return $this->post($url, $items);
     }
     
